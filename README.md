@@ -9,6 +9,8 @@ Drag the .py file onto the file system of the calculator and select where you wa
 
 The file should automatically be converted into a version that the calculator can run.
 
+NOTE: Only use the file title that has nothing after it, like `POLYDIV.py`. Do not use files like `POLYDIV_.py` or `POLYDIV_TESTS.py`. Also, `tests.py` is not a program meant to be run on the calculator.
+
 ## Contributing
 This is not a real project but rather a code dump for all the things on my calculator. If there are any efficiency or accuracy issues, feel free to fork, make a pull request, and/or submit an issue. All contributions are welcome.
 
