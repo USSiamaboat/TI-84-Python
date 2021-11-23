@@ -134,9 +134,10 @@ def factor(polynomial_coefs):
 	
 	return output
 
-degree = int(input("Degree: "))
-poly = []
-for i in range(degree+1):
-	temp = int(input("Coef of X^"+str(degree - i)+": "))
-	poly.append(temp)
-print(factor(poly))
+if __name__ == "__main__":
+	degree = int(input("Degree: "))
+	poly = []
+	for i in range(degree+1):
+		temp = int(input("Coef of X^"+str(degree - i)+": "))
+		poly.append(temp)
+	print(factor(poly))
