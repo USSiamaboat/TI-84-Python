@@ -32,7 +32,7 @@ if __name__ == "__main__":
 	params = [[], ["r"], ["h", "k", "r"], ["a", "b", "c"]]
 	print("1: x^2 + y^2 = r^2")
 	print("2: (x-h)^2 + (y-k)^2 = r^2")
-	print("3: x^2 + ax + y^2 + bx + c = 0")
+	print("3: x^2 + y^2 + ax + by + c = 0")
 	type = int(input("Select a type: "))
 	print("")
 	inarr = []
